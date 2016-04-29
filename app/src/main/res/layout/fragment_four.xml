@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#C2DFFF"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/details_image_view"
+        android:layout_below="@+id/msg3"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/detailsname"/>
+    <ImageView
+        android:id="@+id/inayo_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/details_image_view"
+        android:src="@drawable/inayo"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#0000A0"
+        android:textSize="20sp"
+        android:id="@+id/name"
+        android:layout_below="@id/inayo_image_view"
+        android:text="DIET"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/diet_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0000FF"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="20dp"
+        android:text="dietresult" />
+    <TextView
+        android:id="@+id/slp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SLEEP"
+        android:textColor="#0000A0"
+        android:textSize="20sp"
+        android:layout_below="@+id/inayo_image_view"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/name"
+        android:layout_marginLeft="150dp"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/sleep_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sleepdetails"
+        android:textColor="#0000FF"
+        android:layout_below="@+id/slp"
+        android:layout_toRightOf="@+id/diet_text_view"
+        android:layout_marginLeft="100dp"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JOB"
+        android:textColor="#0000A0"
+        android:textSize="20sp"
+        android:layout_below="@+id/diet_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:id="@+id/job_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/job"
+        android:layout_marginLeft="20dp"
+        android:text="jobresult"
+        android:textColor="#0000FF"/>
+    <TextView
+        android:id="@+id/activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAILY ACTIVITY"
+        android:textColor="#0000A0"
+        android:textSize="20sp"
+        android:layout_below="@+id/sleep_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/name"
+        android:layout_marginLeft="120dp"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/activity_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MODERATE \n 4-6 HRS"
+        android:textColor="#0000FF"
+        android:layout_below="@+id/activity"
+        android:layout_toRightOf="@+id/diet_text_view"
+        android:layout_marginLeft="70dp"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/smoke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMOKE"
+        android:textColor="#0000A0"
+        android:textSize="20sp"
+        android:layout_below="@+id/job_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/smoke_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/smoke"
+        android:layout_marginLeft="20dp"
+        android:text="YES"
+        android:textColor="#0000FF"/>
+    <TextView
+        android:id="@+id/drink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DRINK"
+        android:textColor="#0000A0"
+        android:textSize="20sp"
+        android:layout_below="@+id/activity_details"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/name"
+        android:layout_marginLeft="160dp"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/drink_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YES"
+        android:textColor="#0000FF"
+        android:layout_below="@+id/drink"
+        android:layout_toRightOf="@+id/diet_text_view"
+        android:layout_marginLeft="130dp"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/diabetes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIABETES IN FAMILY"
+        android:textColor="#0000A0"
+        android:textSize="20sp"
+        android:layout_below="@+id/smoke_detail"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/diabetes_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/diabetes"
+        android:layout_marginLeft="20dp"
+        android:text="MOM AND BROTHER"
+        android:textColor="#0000FF"/>
+
+    <ImageButton
+        android:id="@+id/img_tbnfr_4"
+        android:layout_below="@+id/diabetes_detail"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/confirmbutton"/>
+    <TextView
+        android:id="@+id/text_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_tbnfr_4"
+        android:text="Incorrect information? EDIT DETAILS"
+        android:textColor="#0000FF"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>

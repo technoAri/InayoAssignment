@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\HP PC\\Downloads\\AllTheRages\\CPApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\HP PC\\Downloads\\AllTheRages\\CPApp\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP PC\\Downloads\\AllTheRages\\CPApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_one.xml",
+        "source": "C:\\Users\\HP PC\\Downloads\\AllTheRages\\CPApp\\app\\src\\main\\res\\layout\\fragment_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP PC\\Downloads\\AllTheRages\\CPApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_three.xml",
+        "source": "C:\\Users\\HP PC\\Downloads\\AllTheRages\\CPApp\\app\\src\\main\\res\\layout\\fragment_three.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP PC\\Downloads\\AllTheRages\\CPApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_four.xml",
+        "source": "C:\\Users\\HP PC\\Downloads\\AllTheRages\\CPApp\\app\\src\\main\\res\\layout\\fragment_four.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP PC\\Downloads\\AllTheRages\\CPApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_five.xml",
+        "source": "C:\\Users\\HP PC\\Downloads\\AllTheRages\\CPApp\\app\\src\\main\\res\\layout\\fragment_five.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP PC\\Downloads\\AllTheRages\\CPApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_two.xml",
+        "source": "C:\\Users\\HP PC\\Downloads\\AllTheRages\\CPApp\\app\\src\\main\\res\\layout\\fragment_two.xml"
+    }
+]
